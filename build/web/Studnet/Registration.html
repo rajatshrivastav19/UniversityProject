@@ -1,0 +1,169 @@
+
+
+<html>
+    <head>
+        
+    <link rel="stylesheet" href="STUDENT.css">
+    
+       <nav>
+        <img src="logoblue.jpg" height="120" width="140" align="right">
+          
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="StudentPage.html">STUDENT LOGIN</a></li>
+              <li><a href="Registration.html">REGISTRATION</a></li>
+              <li><a href="#">FORGET PASWORD</a></li>
+              <li><a href="#">ALUMNI</a></li>
+          </ul>
+          <img src="Phule.jpg" height="120" width="130" align="left">
+  </nav>
+  <style>
+  body {
+         background-color: #FFB330;
+         
+     }
+     .maindiv
+     {
+          width: 1300px; 
+          height: 650px;
+          position: absolute;
+          left:50%;
+          top: 50%;
+          transform: translate( -50% , -45%);
+          box-shadow: 1px 2px 10px 5px white;
+          
+          background-image: url('unnamed.jpg');
+          background-image: url('https://img.jagranjosh.com/imported/images/E/Articles/Graphic-Era-University-in-the-Top-100-Universities-of-the-Nation-Body-Images.jpg');
+          background-image: url('https://lh3.googleusercontent.com/proxy/SjFU7E8kVTM0TME5BY5zkebEILm3yi9vDOWwuqVOFtamsFsVIxEDqSa5Rgcs-_vVwfif6EqSOG_w7hNvTBJgTVVz');
+          background-size: 100% 100%;
+          animation: slider 8s infinite linear;
+     }
+
+     @keyframes slider{
+
+      0%{ background-image: url('unnamed.jpg');  }
+      35%{ background-image: url('https://img.jagranjosh.com/imported/images/E/Articles/Graphic-Era-University-in-the-Top-100-Universities-of-the-Nation-Body-Images.jpg');  }
+      70%{ background-image: url('https://www.geu.ac.in/content/dam/geu/Image-Galleries/HeaderFiles/aerial-view-geu.jpg'); }
+      90%{ background-image: url('https://lh3.googleusercontent.com/proxy/SjFU7E8kVTM0TME5BY5zkebEILm3yi9vDOWwuqVOFtamsFsVIxEDqSa5Rgcs-_vVwfif6EqSOG_w7hNvTBJgTVVz'); }
+     }
+  </style>
+  </head>
+  <body>
+
+   <div class="maindiv"> 
+    <center>
+    <h1> Registration page </h1>
+    <form method="post" action="Student_Registration.jsp" class="E">
+      <table style="font-synthesis: style;">
+        <tr>
+          <td>FIRST NAME:*</td>
+          <td><input type="text" name="FIRST_NAME" placeholder="FIRST NAME"></td>
+        </tr>
+        <tr>
+          <td>LAST NAME:*</td>
+          <td><input type="text" name="LAST_NAME" placeholder="LAST NAME"></td>
+        </tr>
+        <tr>
+          <td>FATHER NAME:*</td>
+          <td><input type="text" name="FATHER_NAME" placeholder="FATHER_NAME"></td>
+        </tr>
+                                
+        <tr>
+          <td>MOTHER_NAME:*</td>
+          <td><input type="text" name="MOTHER_NAME" placeholder="MOTHER_NAME"></td>
+        </tr>
+        <tr>
+          <td>ADDRESS:*</td>
+          <td><input type="text" name="ADDRESS" placeholder="ADDRESS"></td>
+        </tr>
+        <tr>
+          <td>MOBILE NUMBER:*</td>
+          <td><input type="text" name="MOBILE_NO" placeholder="MOBILE_NO"></td>
+        </tr>
+        <tr>
+          <td>STUDENT EMAIL:*</td>
+          <td><input type="text" name="STUDENT_EMAIL" placeholder="STUDENT_EMAIL"></td>
+        </tr>
+        <tr>
+          <td>GUARDIAN EMAIL:*</td>
+          <td><input type="text" name="GUARDIAN_EMAIL" placeholder="GUARDIAN_EMAIL"></td>>
+        </tr>
+        <tr>
+          <td>AADHAR NUMBER:*</td>
+          <td><input type="text" name="AADHAR_NO" placeholder="AADHAR_NO:"></td>
+        </tr>
+        <tr>
+          <td>QUALIFICATION:*</td>
+          <td><input type="text" name="QUALIFICATION" placeholder="QUALIFICATION"></td>
+        </tr>
+        <tr>
+          <td>MARKS:</td>
+          <td><input type="text" name="MARKS" placeholder="MARKS"></td>
+        </tr>
+        <tr>
+          <td>ENROLL NO:*</td>
+          <td><input type="text" name="ENROLL_NO" placeholder="ENROLL_NO"></td>
+        </tr>
+        <tr>
+          <td>CATEGORY:*</td>
+          <td><input type="text" name="CATEGORY" placeholder="CATEGORY"></td>
+        </tr>
+        <tr>
+          <td>UPTU_ROLL:*</td>
+          <td><input type="text" name="UPTU_ROLL" placeholder="UPTU_ROLL"></td>
+        </tr>
+        <tr>
+          <td>UPTU RANK:</td>
+          <td><input type="text" name="UPTU_RANK" placeholder="UPTU_RANK"></td>
+        </tr>
+        <tr>
+          <td>UPTU MARKS:</td>
+          <td><input type="text" name="UPTU_MARKS" placeholder="UPTU_MARKS"></td>
+        </tr>
+        <tr>
+          <td>UNIVERSITY NAME:*</td>
+          <td><input type="text" name="UNIVERSITY_NAME" placeholder="UNIVERSITY_NAME"></td>
+        </tr>
+        <tr>
+          <td>DEPT. NAME:*</td>
+          <td><input type="text" name="DEPT_NAME" placeholder="DEPT_NAME"></td>
+        </tr>
+        <tr>
+          <td>STUDENT SEMESTER:</td>
+          <td><input type="text" name="STUDENT_SEMESTER" placeholder="STUDENT_SEMESTER"></td>
+        </tr>
+        <tr>
+          <td>YEAR:*</td>
+          <td><input type="text" name="YEAR" placeholder="YEAR"></td>
+        </tr>
+        <tr>
+          <td>STUDENT FEE:*</td>
+          <td><input type="text" name="STUDENT_FEE" placeholder="STUDENT_FEE"></td>
+        </tr>
+        <tr>
+          <td>STUDENT IMAGE:*</td>
+          <td><input type="file" name="STUDENT_IMAGE" placeholder="STUDENT_IMAGE" required="required"></td>
+        </tr>
+        <tr>
+          <td>PARENTS_IMAGE:*</td>
+          <td><input type="file" name="PARENTS_IMAGE" placeholder="PARENTS_IMAGE"></td>
+        </tr>
+        <tr>
+          <td>SET PASWORD:*</td>
+          <td><input  type="PASSWORD" name="PASSWORD" placeholder="PASSWORD"></td>
+        </tr>
+        <tr>
+          <td>SUBMIT</td>
+          <td><input type= "Submit" name="Submit"></td>
+        </tr>        
+      </table>
+    </form>
+  </center>
+
+  </div>
+</body>
+</html>
